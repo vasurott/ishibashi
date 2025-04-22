@@ -35,7 +35,7 @@ body{
 }
 @font-face{
     font-family: soukou;
-    src: url(./fonts/soukou.ttf) format("truetype");
+    src: url(soukou.ttf) format("truetype");
 }
 
 #main.active{

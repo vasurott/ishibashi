@@ -1278,7 +1278,7 @@ footer .logo img{
     transform: translateX(-50%);
 }
 footer .container{
-    background-image: url(img/herobg.jpg);
+    background-image: url(herobg.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;

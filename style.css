@@ -164,7 +164,7 @@ hero
 .hero{
     width: 100%;
     height: 100vh;
-    background-image: url(img/herobg.jpg);
+    background-image: url(herobg.jpg);
     background-position: top;
     background-size: cover;
     background-attachment: fixed;
@@ -401,7 +401,7 @@ introduction
 
 ---------------------------------------*/
 .introduction{
-    background-image: url(img/herobg.jpg);
+    background-image: url(herobg.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -550,7 +550,7 @@ introduction
         bottom: 5%;
         right: 5%;
     }
-
+    
 }
 @media (max-width: 600px){
     .int-title .NAME h1{

@@ -788,7 +788,7 @@ work(s) common
 .works{
     width: 100%;
     overflow: hidden;
-    background-image: url(img/works-bg.jpg);
+    background-image: url(works-bg.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

@@ -787,6 +787,11 @@ work(s) common
 ---------------------------------------*/
 .works{
     width: 100%;
+    overflow: hidden;
+    background-image: url(img/works-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .works img{
     transition: all .5s ease;
@@ -821,7 +826,7 @@ first
 .first{
     background-color: var(--bgcolor);
     padding-bottom: 150px;
-    overflow: hidden;
+    mix-blend-mode: multiply;
 }
 .image-flex{
     display: flex;
@@ -961,7 +966,7 @@ second
 .second{
     background-color: var(--bgcolor);
     padding-bottom: 150px;
-    overflow: hidden;
+    mix-blend-mode: multiply;
 }
 .text-flex{
     display: flex;
@@ -1070,7 +1075,7 @@ third
 .third{
     background-color: var(--bgcolor);
     padding-bottom: 150px;
-    overflow: hidden;
+    mix-blend-mode: multiply;
 }
 .t-text{
     margin-bottom: 20px;
@@ -1186,6 +1191,7 @@ fourth
 .fourth{
     background-color: var(--bgcolor);
     padding-bottom: 100px;
+    mix-blend-mode: multiply;
 }
 .fth-content{
     margin: 0 20px;
